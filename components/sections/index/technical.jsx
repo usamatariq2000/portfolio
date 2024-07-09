@@ -43,7 +43,7 @@ export default function Technical() {
 						/>
 						<BadgesBlock 
 							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+							copy="With around 6 years of experience in software development, I have gained a solid understanding of designing and developing user-friendly interfaces for various software products. Here are some of the software, I have utilized during this time."
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
@@ -73,15 +73,11 @@ export default function Technical() {
 }
 
 const software = [
-	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
-	{ key: 'illustrator', 	name: 'Illustrator', 		type: 'devicon' },
+	{ key: 'phpstorm', 		name: 'phpstorm', 			type: 'devicon' },
+	{ key: 'docker', 		name: 'docker', 			type: 'devicon' },
 	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
 	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
 	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
-	{ key: 'computer-mouse',name: 'Click Up', 			type: 'fas' },
-	{ key: 'list-music',	name: 'Ableton', 			type: 'fas' },
-	{ key: 'aftereffects',	name: 'After Effects', 		type: 'devicon' },
-	{ key: 'premierepro',	name: 'Premiere Pro', 		type: 'devicon' },
 ]
 
 const tech	= [
@@ -91,12 +87,11 @@ const tech	= [
 	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
 	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
 	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
+	{ key: 'laravel', 		name: 'laravel', 			type: 'devicon' },
 	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
 	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
 	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
+	{ key: 'tailwindcss', 	name: 'Tailwind', 			type: 'devicon' },
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
 	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
 	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },

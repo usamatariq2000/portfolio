@@ -9,6 +9,7 @@ import Icon from '../../utils/icon.util'
 import css from '../../../styles/sections/projects/recent.module.scss'
 
 export default function GitProjects({ repos, user }) {
+	const startIndex = 0;
 	return (
 		<Section classProp={css.section}>	
 			<Container classProp={css.container} spacing={'verticalXXXLrg'}>
@@ -22,7 +23,7 @@ export default function GitProjects({ repos, user }) {
 				</section>
 				<div className={css.projects}>
 					{
-					repos.map( ({ name, description, topics, forks_count, html_url, language, watchers, homepage, pushed_at }, index) => {
+					repos.slice(startIndex, startIndex + 6).map( ({ name, description, topics, forks_count, html_url, language, watchers, homepage, pushed_at }, index) => {
 						const date = new Date(pushed_at).toDateString()
 						return (
 							<>
@@ -35,7 +36,7 @@ export default function GitProjects({ repos, user }) {
 									<p className={css.description}>{description}</p>
 								</span>
 								<span className={css.details}>
-									<p><i className={`devicon-${language.toLowerCase()}-plain colored`} /> {language}</p>
+									<p><i className={`devicon-javascript-plain colored`} />  Javascript</p>
 									<p><Icon icon={[ 'fad', 'star' ]} /> {watchers}</p>
 									<p><Icon icon={[ 'fad', 'code-branch' ]} /> {forks_count}</p>
 									<p className={css.pushedAt}>{date}</p>

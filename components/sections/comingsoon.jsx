@@ -1,25 +1,15 @@
-import Section 		from '../structure/section';
-import Container 	from '../structure/container';
+import Container from '../structure/container';
+import Section from '../structure/section';
 
-import css 			from '../../styles/sections/projects/featured.module.scss'
+import css from '../../styles/sections/projects/featured.module.scss';
+
+import Career from './index/career';
 
 export default function ComingSoon() {
 	return (
 		<Section classProp={css.hasBg}>	
 			<Container>
-				<h2 className="fullHeight centered">Coming Soon!</h2>
-				<style jsx>{`
-				.fullHeight {
-					min-height: 500px;
-					height: 100vh;
-					max-height: 1200px;
-				}
-				.centered {
-					display: flex;
-					justify-content: center;
-					align-items: center;
-				}
-			`}</style>
+				<Career />
 			</Container>
 			<div className={css.bgContainer}>
 				<span className={css.orbitalBg}>
