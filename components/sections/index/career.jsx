@@ -66,7 +66,7 @@ export default function Career() {
 										<span className={career.subList}><span className={career.bullet}></span>Strong application foundation compliant with latest standards</span>
 									</li>
 									<li>
-										Design and development of the project's portfolio website.
+										Design and development of the project&apos;s portfolio website.
 										<span className={career.subList}><span className={career.bullet}></span>11.1% overall conversion rate </span>
 									</li>
 								</ul>
